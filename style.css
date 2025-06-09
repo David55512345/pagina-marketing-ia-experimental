@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+header.hero {
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.hero p {
+    font-size: 1.3rem;
+}
+.hero .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #fff;
+    color: #ff7e5f;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+.hero .cta:hover {
+    background: #ff7e5f;
+    color: #fff;
+}
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+h2 {
+    color: #35424a;
+    margin-top: 0;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+footer {
+    text-align: center;
+    background: #35424a;
+    color: #fff;
+    padding: 20px;
+}
+@media (max-width: 600px) {
+    header.hero {
+        padding: 80px 20px;
+    }
+    .testimonial {
+        flex-direction: column;
+        text-align: center;
+    }
+    .testimonial img {
+        margin-bottom: 10px;
+    }
+}
